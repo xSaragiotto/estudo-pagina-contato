@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maxmum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <div id="main-container">
+        <div id="address-container"> <!--Informações de endereço-->
+            <div class="fade"></div>
+            <div id="address-content">
+                <h2><ion-icon name="navigate-outline"></ion-icon>Endereço</h2>
+                <p>Rua Professor João Batistella, 240</p>
+                <h2><ion-icon name="call-outline"></ion-icon>Telefone</h2>
+                <p>(19)99999-9999</p>
+                <h2><ion-icon name="mail-outline">E-mail</ion-icon>E-mail</h2>
+                <p>email_teste@mail.com</p>
+            </div>
+        </div>
+        <div id="form-container"> <!--Formulário para contato-->
+            <h2>Conecte-se conosco!</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" placeholder="Digite seu nome">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" placeholder="Digite seu E-mail">
+                <label for="phone">Telefone:</label>
+                <input type="text" name="phone" maxlength="15" placeholder="(00)00000-0000">
+                <label for="msg">Sua mensagem:</label>
+                <textarea name="msg" placeholder="Como podemos te ajudar?"></textarea>
+                <input type="submit" value="Enviar mensagem">
+            </form>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
